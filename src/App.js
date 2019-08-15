@@ -6,12 +6,13 @@ import Login from './components/LoginComponent';
 import Principal from './components/PrincipalComponent';
 import Account from './components/AccountComponent';
 import Confirm from './components/ConfirmComponent';
+import Tracing from './components/TracingComponent';
+import Route from './components/RouteComponent';
 
 function App() {
   return (
-    <React.Fragment>
-     
-      <Confirm />
+    <React.Fragment>     
+      <Route />
     </React.Fragment>
   );
 }
@@ -24,4 +25,7 @@ export default App;
       <Principal />
       <Account />
       <Confirm />
+      <Tracing />
+      <Route />
+
       */
