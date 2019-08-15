@@ -1,0 +1,15 @@
+.bg-splash{
+    background-image: url('../images//BackgroundSplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.marginImg{
+    margin: 140px 0px 30px 0px;
+}
+
+.marginVer{
+    margin-bottom: 130px;    
+}
+ 
