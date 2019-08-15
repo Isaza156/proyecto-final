@@ -6,12 +6,14 @@ import Login from './components/LoginComponent';
 import Principal from './components/PrincipalComponent';
 import Account from './components/AccountComponent';
 import Confirm from './components/ConfirmComponent';
+import Footer from './components/FooterComponent';
 
 function App() {
   return (
     <React.Fragment>
      
-      <Confirm />
+      <Intro/>
+      <Footer/>
     </React.Fragment>
   );
 }
