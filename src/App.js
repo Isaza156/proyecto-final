@@ -5,12 +5,13 @@ import SignIn from './components/SignInComponent';
 import Login from './components/LoginComponent';
 import Principal from './components/PrincipalComponent';
 import Account from './components/AccountComponent';
+import Confirm from './components/ConfirmComponent';
 
 function App() {
   return (
     <React.Fragment>
      
-      <Account />
+      <Confirm />
     </React.Fragment>
   );
 }
@@ -20,4 +21,7 @@ export default App;
       <Intro />
       <SignIn />
       <Login />
-      <Principal />     */
+      <Principal />
+      <Account />
+      <Confirm />
+      */
