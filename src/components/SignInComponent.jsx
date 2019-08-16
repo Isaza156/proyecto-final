@@ -19,7 +19,7 @@ class SignIn extends React.Component {
                         </div>
                         <div className="form-group form-check">
                             <input type="checkbox" className="form-check-input" />
-                            <label className="form-check-label" for="exampleCheck1">Acepta Términos y Condiciones</label>
+                            <label className="form-check-label">Acepta Términos y Condiciones</label>
                         </div>
                         <div className='margin'>
                             <button type="button" className="btn btn-primary px-5 mr-3">Registrarse</button>

@@ -1,3 +1,6 @@
+body{
+  line-height: 1;
+}
 .color__primary{
     background-color: #240c34;
 }
