@@ -1,4 +1,9 @@
 import React from 'react';
+
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import Layout from './components/LayoutComponent';
+
 import Splash from './components/SplashComponent';
 import Intro from './components/IntroComponent';
 import SignIn from './components/SignInComponent';
@@ -6,33 +11,29 @@ import Login from './components/LoginComponent';
 import Principal from './components/PrincipalComponent';
 import Account from './components/AccountComponent';
 import Confirm from './components/ConfirmComponent';
-import Footer from './components/FooterComponent';
-import Route from './components/RouteComponent'; 
-import Tracing from './components/TracingComponent'; 
+import Router from './components/RouterComponent';
+import Tracing from './components/TracingComponent';
+import NotFound from './components/NotFoundComponent';
 
-function App() {
+const App = () => {
   return (
-    <React.Fragment>
-     
-    
-      <Intro />
-     
-       <Footer/>
 
-    </React.Fragment>
+    <BrowserRouter>
+      <Layout>
+        <Switch>
+           <Route exact path = "/" component={Splash} />
+           <Route exact path = "/intro" component={Intro} />
+           <Route exact path = "/signIn" component={SignIn} />
+           <Route exact path = "/login" component={Login} />
+           <Route exact path = "/principal" component={Principal} />
+           <Route exact path = "/account" component={Account} />
+           <Route exact path = "/confirm" component={Confirm} />
+           <Route exact path = "/router" component={Router} />
+           <Route exact path = "/tracing" component={Tracing} />
+           <Route component={NotFound} /> 
+        </Switch>
+      </Layout>
+    </BrowserRouter>
   );
 }
 export default App;
-/*
-       <Splash />
-      <Intro />
-      <SignIn />  
-      <Login />
-      <Principal />
-      <Account />
-      <Confirm />
-      <Tracing />
-      <Route />
-       <Footer/>
-
-      */

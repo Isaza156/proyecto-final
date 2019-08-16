@@ -1,19 +1,19 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 
-export class FooterComponent extends Component {
+export class Footer extends React.Component {
     render() {
         return (
             <React.Fragment>
-              <footer className="footer py-2 color__primary fixed-bottom">
-                <div className="container text-center">
-                    <span className ="text-muted footer__spam">@2019 Haceme un cruce. All Rights Reserved.</span>
+                <div className="py-2 color__primary fixed-bottom">
+                    <div className="container text-center">
+                        <span className="text-muted footer__spam">@2019 Haceme un cruce. All Rights Reserved.</span>
+                    </div>
                 </div>
-            </footer>
-               
+
             </React.Fragment>
         );
     }
 }
 
-export default FooterComponent;
+export default Footer;

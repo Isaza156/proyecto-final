@@ -1,7 +1,7 @@
 import React from 'react';
 import Perfil from '../images/PerfilAccount.png';
 
-class Route extends React.Component {
+class Router extends React.Component {
     state = {}
     render() {
         return (
@@ -99,4 +99,4 @@ class Route extends React.Component {
         );
     }
 }
-export default Route;
+export default Router;

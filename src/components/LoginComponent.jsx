@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/LoginStyle.css';
 
 class Login extends React.Component {
@@ -17,7 +18,7 @@ class Login extends React.Component {
                         </div>
                         <div className='margin'>
                             <button type="button" className="btn btn-primary px-5 mr-3">Iniciar Sesión</button>
-                            <button type="button" className="btn btn-danger px-5">Volver</button>
+                            <Link type="button" className="btn btn-danger px-5" to="/intro">Volver</Link>
                         </div>
                     </form>
                 </div>
