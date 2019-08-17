@@ -3,6 +3,7 @@
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;  
+   
     
 }
 .tamañoTitle{
@@ -19,18 +20,21 @@
 }
 
 .marginReg{
-    margin-bottom: 150px;    
+    margin-bottom: 155px;    
 }
 
 .video-responsive {
     position: relative;
-    padding-bottom: 40%; /* 16/9 ratio */    
+    padding-bottom: 40%;
     }
     
     .video-responsive iframe,
     .video-responsive object,
     .video-responsive embed {
     position: absolute;
-    width: 90%;
-    height: 100%;
+    width: 95%;
+    height: 90%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+
     }

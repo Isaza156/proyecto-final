@@ -8,23 +8,23 @@ class SignIn extends React.Component {
         return (
             <div className='cover-container bg-signIn'>
                 <div className='d-flex justify-content-center text-center text-white'>
-                    <form>
-                        <div className="form-group">
-                            <h2 className='my-5'>Registro</h2>
-                            <input type="text" className="form-control my-4" placeholder="Nombre Completo" />
-                            <input type="email" className="form-control mb-4" placeholder="Correo Electrónico" />
+                    <form className="marginform text-dark bg-light">
+                        <div className="form-group ">
+                            <h1 className='my-4'>Registro</h1>
+                            <input type="text" className="form-control my-3" placeholder="Nombre completo" />
+                            <input type="email" className="form-control mb-3" placeholder="Correo electrónico" />
                         </div>
                         <div className="form-group">
-                            <input type="password" className="form-control mb-4" placeholder="Contraseña" />
-                            <input type="password" className="form-control mb-4" placeholder="Confirmar Contraseña" />
+                            <input type="password" className="form-control mb-3" placeholder="Contraseña" />
+                            <input type="password" className="form-control mb-3" placeholder="Confirmar contraseña" />
                         </div>
                         <div className="form-group form-check">
                             <input type="checkbox" className="form-check-input" />
-                            <label className="form-check-label">Acepta Términos y Condiciones</label>
+                            <label className="form-check-label ">Acepta términos y condiciones</label>
                         </div>
-                        <div className='margin'>
-                            <button type="button" className="btn btn-primary px-5 mr-3">Registrarse</button>
-                            <Link type="button" className="btn btn-danger px-5" to="/intro" >Volver</Link>
+                        <div className='margin mb-5'>
+                            <Link type="button" className="btn btn-primary px-5 mb-3 w-75" to="/principal">Registrarse</Link>
+                            <Link type="button" className="btn btn-secondary px-5  w-75" to="/intro" >Volver</Link>
                         </div>
                     </form>
                 </div>

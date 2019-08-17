@@ -8,17 +8,18 @@ class Login extends React.Component {
         return (
             <div className='cover-container bg-login'>
                 <div className='d-flex justify-content-center text-center text-white '>
-                    <form className='marginform'>
+                    <form className='marginform text-dark bg-light'>
                         <div className="form-group">
-                            <h2 className='my-5'>Inicio Sesión</h2>
-                            <input type="email" className="form-control mb-4" placeholder="Correo Electrónico" />
+                            <h1 className='my-5'>Inicio Sesión</h1>
+                            <input type="email" className="form-control mb-4" placeholder="Correo electrónico" />
                         </div>
                         <div className="form-group">
                             <input type="password" className="form-control mb-4" placeholder="Contraseña" />
                         </div>
                         <div className='margin'>
-                            <button type="button" className="btn btn-primary px-5 mr-3">Iniciar Sesión</button>
-                            <Link type="button" className="btn btn-danger px-5" to="/intro">Volver</Link>
+                        <Link type="button" className="btn btn-primary px-5 w-75 mb-4" to ="/principal">Iniciar Sesión</Link>
+                        <p> ¿No tienes cuenta?</p>
+                        <Link type="button" className="btn btn-secondary px-5 w-75" to="/intro">Volver</Link>
                         </div>
                     </form>
                 </div>
