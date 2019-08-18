@@ -22,7 +22,7 @@ class Principal extends React.Component {
                         <input type="search" name="search" placeholder=" Cra00 #00a 00, Envigado" className=' txtField border border-info rounded ' />
                         <button type="button" className="btn btn-secondary mt-2 mx-2 rounded-pill px-3 btnPrincipal">Buscar</button>
                     </div>
-                    <div className='col-12 h-auto bg__pri py-3 text-center text-muted'>
+                    <div className='col-12 h-auto bg__pri py-3 text-center text-muted mb-5'>
                         <h4>Fecha y hora de salida</h4>
 
                         <form>

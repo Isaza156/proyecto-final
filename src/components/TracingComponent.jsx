@@ -62,10 +62,10 @@ class Tracing extends React.Component {
 
                 <div className='d-flex justify-content-around mt-3 mb-5'>
                     <Link to='/principal'>
-                    <a href="#" className="btn btn-primary btn-lg active rounded-pill mb-2" role="button">Cancelar</a>
+                    <a className="btn btn-primary btn-lg active rounded-pill mb-2" role="button">Cancelar</a>
                     </Link>
                     
-                    <a href="#" className="btn btn-danger btn-lg active rounded-pill mb-2" data-toggle="tooltip" data-placement="top" title="Llegué" role="button"><i className="fas fa-bell"></i> </a>
+                    <a className="btn btn-danger btn-lg active rounded-pill mb-2" data-toggle="tooltip" data-placement="top" title="Llegué" role="button"><i className="fas fa-bell"></i> </a>
                     
                 </div>
 

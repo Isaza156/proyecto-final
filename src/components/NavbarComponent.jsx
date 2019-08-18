@@ -31,7 +31,7 @@ class Navbar extends React.Component {
                             <li className="nav-item mt-1 mx-2">
                                 <a className="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">
                                     Cómo funciona
-                                    <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div className="modal-dialog" role="document">
                                             <div className="modal-content">
                                                 <div className="modal-body">
@@ -56,7 +56,7 @@ class Navbar extends React.Component {
                                     <Link to='/account'>
                                         <div className='text-center'>
                                             <i className="fas fa-user text-center"></i>
-                                            <button type="button" class="btn btn-outline-light rounded-pill text-dark mx-2"> <strong> Mi Perfil </strong></button>
+                                            <button type="button" className="btn btn-outline-light rounded-pill text-dark mx-2"> <strong> Mi Perfil </strong></button>
                                         </div>
                                     </Link>
 
