@@ -1,32 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Perfil from '../images/PerfilAccount.png';
+import Navbar from './NavbarComponent';
 
 class Tracing extends React.Component {
     state = {}
     render() {
         return (
             <React.Fragment>
-                <div className='cover-container'>
-                    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                        <div className="collapse navbar-collapse d-flex justify-content-center text-center">
-                            <ul className="navbar-nav ">
-                                <li className="nav-item">
-                                    <a className="nav-link text-light mx-5 mt-2" href="/">Contáctanos</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link text-light mx-5 mt-2" href="/">Principal</a>
-                                </li>
-                                <h4 className='text-white mx-5'>Haceme Un <br /> Cruce</h4>
-                                <li className="nav-item">
-                                    <a className="nav-link text-light mx-5 mt-2" href="/">Cómo Funciona</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link text-light mx-5 mt-2" href="/">Mi Cuenta</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+                <Navbar />
 
                 <div className='row'>
                     <div className='col-md-6 col-sm-12 text-center'>
@@ -78,16 +60,16 @@ class Tracing extends React.Component {
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3966.6827442126423!2d-75.61288418590692!3d6.17321372885054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1565896568458!5m2!1ses!2sco" width="1200" height="200" frameBorder="0" allowFullScreen></iframe>
                 </div>
 
-                <div className='d-flex justify-content-around mt-3'>
-                    <a href="/" className="btn btn-primary btn-lg active rounded-pill" role="button">Cancelar</a>
-                    <a href="/" className="btn btn-danger btn-lg active rounded-pill" data-toggle="tooltip" data-placement="top" title="Llegué" role="button"><i className="fas fa-bell"></i> </a>
+                <div className='d-flex justify-content-around mt-3 mb-5'>
+                    <Link to='/principal'>
+                    <a href="#" className="btn btn-primary btn-lg active rounded-pill mb-2" role="button">Cancelar</a>
+                    </Link>
+                    
+                    <a href="#" className="btn btn-danger btn-lg active rounded-pill mb-2" data-toggle="tooltip" data-placement="top" title="Llegué" role="button"><i className="fas fa-bell"></i> </a>
+                    
                 </div>
 
-                <div className='cover-container mt-4'>
-                    <nav className="bg-dark text-white text-center py-2">
-                        <h6>@2019 Haceme Un Cruce. All Rights Reserved.</h6>
-                    </nav>
-                </div>
+
             </React.Fragment>
         );
     }

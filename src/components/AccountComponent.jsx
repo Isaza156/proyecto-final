@@ -1,32 +1,13 @@
 import React from 'react';
 import Perfil from '../images/PerfilAccount.png';
+import Navbar from './NavbarComponent';
 
 class Account extends React.Component {
     state = {}
     render() {
         return (
             <React.Fragment>
-                <div className='cover-container'>
-                    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                        <div className="collapse navbar-collapse d-flex justify-content-center text-center">
-                            <ul className="navbar-nav ">
-                                <li className="nav-item">
-                                    <a className="nav-link text-light mx-5 mt-2" href="/">Contáctanos</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link text-light mx-5 mt-2" href="/">Principal</a>
-                                </li>
-                                <h4 className='text-white mx-5'>Haceme Un <br /> Cruce</h4>
-                                <li className="nav-item">
-                                    <a className="nav-link text-light mx-5 mt-2" href="/">Cómo Funciona</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link text-light mx-5 mt-2" href="/">Mi Cuenta</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+                <Navbar/>
 
                 <div className='row'>
                     <div className='col-md-6 col-sm-12 text-center'>

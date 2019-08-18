@@ -8,12 +8,10 @@ class Splash extends React.Component {
     render() {
         return (
             <div className='cover-container text-center bg-splash text-white d-flex align-items-center justify-content-center flex-column'>
-       
-               
-              <Link to="/intro">
-              <img src={Logo} className="img-fluid marginImg" alt="Logo" />
-              </Link>
-             
+                
+                <Link to="/intro">
+                    <img src={Logo} className="img-fluid marginImg" alt="Logo" />
+                </Link>
 
                 <h1>Haceme un cruce
                     <br />
