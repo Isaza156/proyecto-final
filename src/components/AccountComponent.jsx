@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Perfil from '../images/PerfilAccount.png';
 import Navbar from './NavbarComponent';
 
@@ -16,7 +17,9 @@ class Account extends React.Component {
                         <small> patricia@gmail.com </small>
                     </div>
                     <div className='col-md-6 col-sm-12 d-flex flex-column align-items-center'>
+                    <Link to='/intro'>
                         <button type="button" className="btn btn-primary px-5 mt-5 mb-4">Cerrar Sesión</button>
+                        </Link>
                         <button type="button" className="btn btn-danger px-5 mb-3">Compartir</button>
                     </div>
                 </div>
@@ -51,15 +54,8 @@ class Account extends React.Component {
                             <small>26 Ago 2019</small>
                         </div>
                     </div>
-
-
                 </div>
 
-                <div className='cover-container mt-5'>
-                    <nav className="bg-dark text-white text-center py-2">
-                        <h6>@2019 Haceme Un Cruce. All Rights Reserved.</h6>
-                    </nav>
-                </div>
             </React.Fragment>
         );
     }
