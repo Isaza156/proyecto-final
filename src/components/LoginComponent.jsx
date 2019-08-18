@@ -17,9 +17,9 @@ class Login extends React.Component {
                             <input type="password" className="form-control mb-4" placeholder="Contraseña" />
                         </div>
                         <div className='margin'>
-                        <Link type="button" className="btn btn-primary px-5 w-75 mb-4" to ="/principal">Iniciar sesión</Link>
-                        <p> ¿No tienes cuenta?</p>
-                        <Link type="button" className="btn btn-secondary px-5 w-75" to="/intro">Volver</Link>
+                            <Link type="button" className="btn btn-primary px-5 w-75 mb-4 rounded-pill" to="/principal">Iniciar sesión</Link>
+                            <p> ¿No tienes cuenta?</p>
+                            <Link type="button" className="btn btn-secondary px-5 w-75 rounded-pill" to="/intro">Volver</Link>
                         </div>
                     </form>
                 </div>

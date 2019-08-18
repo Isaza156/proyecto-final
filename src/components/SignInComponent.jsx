@@ -23,8 +23,8 @@ class SignIn extends React.Component {
                             <label className="form-check-label ">Acepta términos y condiciones</label>
                         </div>
                         <div className='mb-5'>
-                            <Link type="button" className="btn btn-primary px-5 mb-3 w-75" to="/principal">Registrarse</Link>
-                            <Link type="button" className="btn btn-secondary px-5  w-75" to="/intro" >Volver</Link>
+                            <Link type="button" className="btn btn-primary px-5 mb-3 w-75 rounded-pill" to="/principal">Registrarse</Link>
+                            <Link type="button" className="btn btn-secondary px-5  w-75 rounded-pill" to="/intro" >Volver</Link>
                         </div>
                     </form>
                 </div>
