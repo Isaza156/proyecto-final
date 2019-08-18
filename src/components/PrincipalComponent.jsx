@@ -11,7 +11,7 @@ class Principal extends React.Component {
             <React.Fragment>
                 <Navbar />
 
-                <div className='col-12 mt-2' id='principal'>
+                <div className= 'mt-2 pb-5' id='principal'>
                     <div className='col-12 bg-pri py-3 text-center text-muted'>
                         <h4>Lugar de partida</h4>
                         <input type="search" name="search" placeholder=" Cll00 #00a 00, Medellín" className='txtField border border-info rounded' />

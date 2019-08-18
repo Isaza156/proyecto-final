@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Perfil from '../images/PerfilAccount.png';
+import Perfil from '../images/avatar.png';
 import Navbar from './NavbarComponent';
+
+import '../styles/ConfirmStyle.css';
 
 class Confirm extends React.Component {
     state = {}
@@ -9,31 +11,33 @@ class Confirm extends React.Component {
         return (
             <React.Fragment>
                 <Navbar />
-
-                <div className='row' id='confirmar'>
-                    <div className='col-md-6 col-sm-12 text-center'>
-                        <div className='row'>
-                            <div className='col-md-6 col-sm-12 text-center'>
-                                <img src={Perfil} className="img-fluid mt-4 mb-4" alt="Perfil" />
-                                <h5>Jose Perez</h5>
+                <div>
+                <div className='row col-12 m-auto' id='confirmar'>
+                    <div className='col-md-6 col-sm-12 col-xs-12 text-center m-auto'>
+                        <div className='row col-12 m-auto'>
+                            <div className='col-md-6 col-sm-12 col-xs-12 text-center m-auto'>
+                                <img src={Perfil} className="img-fluid m-auto" alt="Perfil" />
                             </div>
-                            <div className='my-4'>
-                                <a className="nav-link disabled text-dark" href="/"><strong>Placa:</strong>  AAA-000</a>
-                                <a className="nav-link disabled text-danger" href="/"><strong>Color: Rojo</strong>  </a>
-                                <a className="nav-link disabled text-dark" href="/"><strong>Tiempo:</strong> 20 Min</a>
+                            <div className='m-auto text-left flex-column'>
+                                <h1 className="mb-3 font-weight-bold">Jose Perez</h1>
+                                <h5 className="text-dark" ><strong>Placa:</strong>  AAA-000</h5>
+                                <h5 className="text-danger" ><strong>Color: Rojo</strong>  </h5>
+                                <h5 className="text-dark" ><strong>Tiempo:</strong> 20 Min</h5>
                             </div>
                         </div>
                     </div>
 
-                    <div className='col-md-6 col-sm-12 d-flex flex-column align-items-center'>
-                        <div className="form-group row">
-                            <label htmlFor="inputText" className="col-md-6 col-sm-12 col-form-label text-center mt-4"><strong>Costo del Viaje</strong> </label>
-                            <div className="col-md-6 col-sm-12">
-                                <a className="nav-link disabled text-success mt-4" href="/"><strong>$2.000</strong></a>
-                            </div>
+                    <div className='col-md-6 col-sm-12 col-xs-12 text-center m-auto'>
+
+                        <div className="row">
+                            <div className='m-auto text-left d-flex'>
+                                <h5 className="text-center mt-5 mr-2"><strong> Costo del viaje: </strong></h5>
+                                <h5 className="text-success mt-5 mb-4"><strong>$2.000 PESOS</strong></h5>
+                           </div>
                         </div>
+
                         <Link to='/tracing'>
-                        <button type="button" className="btn btn-primary px-5 mb-3 mt-2">Confirmar</button>
+                        <button type="button" className="btn btn-primary px-5 m-auto">Confirmar</button>
                         </Link>
                         
                     </div>
@@ -41,31 +45,31 @@ class Confirm extends React.Component {
 
                 <hr />
 
-                <div className='text-center mb-5'>
-                    <h3 className='mt-4'>Acompañantes de Viaje</h3>
-                    <div className='row justify-content-center'>
-                        <div className='border border-dark text-center p-1 m-1 bg-danger text-white'>
-                            <h5>Jose Perez</h5>
-                            <small>Envigado - Poblado </small>
+                <div className='text-center mb-5 '>
+                    <h3 className='mt-4 mb-4 font-weight-bold'>acompañantes de viaje</h3>
+                    <div className='row col-12 justify-content-center m-auto'>
+                        <div className='container__viajeros color__secondary col-md-3 col-sm-12'>
+                            <h4>Manuel Andres</h4>
+                            <small>De Envigado hasta Poblado </small>
                             <br />
-                            <small>23 Ago 2019</small>
+                            <small>23 Ago 2019 -7:00a.m</small>
                         </div>
-                        <div className='border border-dark text-center p-1 m-1 bg-danger text-white'>
-                            <h5>Jose Perez</h5>
-                            <small>Envigado - Poblado </small>
+                        <div className='container__viajeros color__secondary col-md-3 col-sm-12'>
+                            <h4>Sofia Hernandez</h4>
+                            <small>De Envigado hasta Ayura </small>
                             <br />
-                            <small>24 Ago 2019</small>
+                            <small>23 Ago 2019 -7:10a.m</small>
                         </div>
-                        <div className='border border-dark text-center p-1 m-1 bg-danger text-white'>
-                            <h5>Jose Perez</h5>
-                            <small>Envigado - Poblado </small>
+                        <div className='container__viajeros color__secondary col-md-3 col-sm-12'>
+                            <h4>Yeferson Perea</h4>
+                            <small>De Envigado hasta Poblado </small>
                             <br />
-                            <small>25 Ago 2019</small>
+                            <small>23 Ago 2019 -7:20a.m</small>
                         </div>
 
                     </div>
                 </div>
-
+                </div>
 
             </React.Fragment>
         );

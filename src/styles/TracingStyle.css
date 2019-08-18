@@ -1,0 +1,13 @@
+.Tcontainer__viajeros{
+    
+    width: 20%;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+    border-color: antiquewhite;
+    color: aliceblue;
+    box-shadow: 3px 3px 2px gainsboro;
+    margin: 5px;
+
+}
