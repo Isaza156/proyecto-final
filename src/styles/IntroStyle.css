@@ -1,10 +1,13 @@
 .bg-intro{
     background-image: url('../images//BackgroundSplash.jpg');
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;  
-   
-    
+    height:100%;
+    width:100%;
+    color: aliceblue;
+    position: fixed;
+        
 }
 .tamañoTitle{
     font-size: 50px;
@@ -16,25 +19,26 @@
 }
 
 .marginBie{
-    margin: 200px 0px 40px 0px;
+    margin: 0 auto;
 }
 
 .marginReg{
-    margin-bottom: 155px;    
+    margin-bottom: 150px;    
 }
 
 .video-responsive {
-    position: relative;
     padding-bottom: 40%;
+    padding-top: 10px;
+    margin:  0 auto;
     }
     
     .video-responsive iframe,
     .video-responsive object,
     .video-responsive embed {
-    position: absolute;
-    width: 95%;
+    position: absolute;;
+    width: 90%;
     height: 90%;
-    margin-bottom: 2em;
-    margin-top: 2em;
+    margin: 0 auto;
+    
 
     }

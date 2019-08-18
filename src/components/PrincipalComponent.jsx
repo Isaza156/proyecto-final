@@ -11,23 +11,23 @@ class Principal extends React.Component {
             <React.Fragment>
                 <Navbar />
 
-                <div className='row m-0' id='principal'>
-                    <div className='col-12 bg-pri py-3 mt-4 mb-3 text-center text-muted'>
-                        <h3>Lugar de partida</h3>
-                        <input type="search" name="search" className='border border-info rounded' />
-                        <button type="button" className="btn btn-danger mx-2 rounded-pill px-3">Buscar</button>
+                <div className='row d-flex text-center ' id='principal'>
+                    <div className='col-12 bg-pri py-3 text-center text-muted'>
+                        <h4>Lugar de partida</h4>
+                        <input type="search" name="search" placeholder="Cll00 #00a 00, Medellín" className='txtField border border-info rounded' />
+                        <button type="button" className="btn btn-danger mx-2 rounded-pill px-3 btnPrincipal">Buscar</button>
                     </div>
-                    <div className='col-12 bg-pri py-3 my-3 text-center text-muted'>
-                        <h3>Lugar de Llegada</h3>
-                        <input type="search" name="search" className='border border-info rounded' />
-                        <button type="button" className="btn btn-danger mx-2 rounded-pill px-3">Buscar</button>
+                    <div className='col-12 bg-pri py-3 my-2 text-center text-muted'>
+                        <h4>Lugar de llegada</h4>
+                        <input type="search" name="search" placeholder="Cra00 #00a 00, Envigado" className=' txtField border border-info rounded ' />
+                        <button type="button" className="btn btn-danger mx-2 rounded-pill px-3 btnPrincipal">Buscar</button>
                     </div>
-                    <div className='col-12 bg-pri py-2 mt-3 mb-5 text-center text-muted '>
-                        <h3>Fecha y Hora de Salida</h3>
+                    <div className='col-12 h-auto bg__pri py-3 text-center text-muted'>
+                        <h4>Fecha y hora de salida</h4>
 
                         <form>
                             <input type='date' className='my-1' />
-                            <input type='time' list="listalimitestiempo" className='mx-1'/>
+                            <input type='time' list="listalimitestiempo" className='mx-1' />
                             <datalist id="listalimitestiempo">
 
                                 <option value="05:00" />
@@ -49,10 +49,10 @@ class Principal extends React.Component {
                             </datalist>
 
                         </form>
-                            <Link to='confirm'>
+                        <Link to='confirm'>
                             <button type="button" className="btn btn-primary mt-3 rounded-pill px-3" >Confirmar</button>
-                            </Link>
-                        
+                        </Link>
+
 
                     </div>
                 </div>

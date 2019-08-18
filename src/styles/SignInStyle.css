@@ -3,18 +3,19 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;    
-    height: 100vh; 
+    height:100%;
+    width:100%;
+    color: aliceblue;
+    position: fixed;
 
 }
 
-.margin{
-    margin: 30px 0px 20px 0px;
-}
+
 
 .marginform{
-    height: 600px;
+    height: 100%;
     width: 390px;
-    margin: 20px 0px 25px 0px;
+    margin: 5px 0px 10px 0px;
     padding: 0px 20px 0px 20px;
     border-radius: 5px;
 }
