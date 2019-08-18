@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import Perfil from '../images/avatar2.png';
+=======
+import Perfil from '../images/avatar.png';
+>>>>>>> eb4a096a13ba3b7f209dbeaeb04789b384846c88
 import Navbar from './NavbarComponent';
 
 import '../styles/DriverStyle.css';
@@ -15,6 +19,7 @@ class Driver extends React.Component {
                 <div className='row col-12 m-auto'>
                 <div className='col-md-6 col-sm-12 col-xs-12 text-center m-auto'>
                         <div className='row'>
+<<<<<<< HEAD
                             <div className='col-md-6 col-sm-12 col-xs-12 text-center m-auto'>
                                 <img src={Perfil} className="img-fluid mx-auto w-50" alt="Perfil" />
                                 <h3>Patricia Cano</h3>
@@ -42,6 +47,31 @@ class Driver extends React.Component {
                     </div>
                         
                     </div>
+=======
+                            <div className='col-md-6 col-sm-12 text-center'>
+                                <img src={Perfil} className="img-fluid mt-3 " alt="Perfil" />
+                            </div>
+                            <div className='my-5 col-md-6 col-sm-12'>
+                                <h3>Jose Perez</h3>
+                                <input type='text' className="text-dark text-center bg-light my-2" placeholder='Placa: AAA-000' />
+                                <input type='text' className="text-dark text-center bg-light my-2" placeholder='Color: Rojo' />
+                                <input type='text' className="text-dark text-center bg-light my-2" placeholder='Salida: Envigado' />
+                                <input type='text' className="text-dark text-center bg-light my-2" placeholder='Precio: $0' />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-6 col-sm-12 d-flex flex-column align-items-center'>
+
+                        <Link to='/service'>
+                            <button type="button" className="btn btn-danger px-5 mt-5 mb-4 rounded-pill">Guardar Cambios</button>
+                        </Link>
+                        <Link to='/principal'>
+                            <button type="button" className="btn btn-primary px-5 mb-4 rounded-pill">Ser Pasajero</button>
+                        </Link>
+
+                    </div>
+
+>>>>>>> eb4a096a13ba3b7f209dbeaeb04789b384846c88
                 </div>
 
                 <hr />
@@ -69,6 +99,7 @@ class Driver extends React.Component {
                             <small>23 Ago 2019 -7:20a.m</small>
                             <button className="btn btn-primary m-2">aceptar</button>
 
+<<<<<<< HEAD
                         </div>
                         <div className='container__viajeros color__secondary col-md-4 col-sm-12'>
                             <h4>Yeferson Perea</h4>
@@ -84,6 +115,14 @@ class Driver extends React.Component {
                     <button className="btn btn-primary m-2 w-50">Comenzar viaje</button>
                     </Link>
                 </div>
+=======
+                <div className='text-center mb-5'>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3966.6827442126423!2d-75.61288418590692!3d6.17321372885054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1565896568458!5m2!1ses!2sco" width="95%" height="220" frameBorder="0" allowFullScreen></iframe>
+                </div>
+
+
+
+>>>>>>> eb4a096a13ba3b7f209dbeaeb04789b384846c88
 
                         
                </div>

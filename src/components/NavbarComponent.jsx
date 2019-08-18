@@ -34,13 +34,13 @@ class Navbar extends React.Component {
                                     <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div className="modal-dialog" role="document">
                                             <div className="modal-content">
-                                            
+
                                                 <div className="modal-body">
-                                                <h2 className="text-danger">Reproduce el video</h2>                                      
+                                                    <h2 className="text-danger">Reproduce el video</h2>
                                                     <div className='m-3 py-3'>
                                                         <iframe src="" width='100%' height='300' frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                                     </div>
-                                                    <button type="button" className="btn btn-secondary w-50" data-dismiss="modal">Cerrar</button>
+                                                    <button type="button" className="btn btn-secondary w-50 rounded-pill" data-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
                                         </div>
