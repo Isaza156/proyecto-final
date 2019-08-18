@@ -19,8 +19,8 @@ class Intro extends React.Component {
                         <Link type="button" className="btn btn-secondary border border-light w-50" to="/login">Iniciar Sesión</Link>
 
                     </div>
-                    <div className='col-md-6 col-sm-12 d-flex flex-column video-responsive text-center'>
-                        <iframe src="https://www.youtube.com/embed/14iHRpk9qvQ?start=0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <div className='col-md-6 col-sm-12 d-flex flex-column video-responsive text-center my-5'>
+                        <iframe src="" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                 </div>
             </div>
@@ -28,3 +28,5 @@ class Intro extends React.Component {
     }
 }
 export default Intro;
+
+// https://www.youtube.com/embed/14iHRpk9qvQ?start=0

@@ -51,7 +51,7 @@ class Tracing extends React.Component {
                             <h5>Patricia Cano</h5>
                             <small>De Envigado hasta Poblado </small>
                             <br />
-                            <small>23 Ago 2019 -7:20a.m</small>
+                            <small>23 Ago 2019 -7:30a.m</small>
                         </div>
 
                     </div>
@@ -68,10 +68,10 @@ class Tracing extends React.Component {
                 <div className='d-flex justify-content-around mt-3 mb-5'>
 
                     <Link to='/principal'>
-                    <a href="#" className="btn btn-primary rounded-pill mb-2" role="button">Cancelar</a>
+                    <button className="btn btn-primary rounded-pill mb-2" role="button">Cancelar</button>
                     </Link>
                     
-                    <a href="#" className="btn btn-danger active rounded-pill mb-2" data-toggle="tooltip" data-placement="top" title="Llegué" role="button"><i className="fas fa-bell"></i> </a>
+                    <button className="btn btn-danger rounded-pill mb-2" data-toggle="tooltip" data-placement="top" title="Llegué" role="button"><i className="fas fa-bell"></i> </button>
                     
                 </div>
                 </div>

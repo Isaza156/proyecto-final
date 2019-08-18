@@ -17,8 +17,8 @@ class Account extends React.Component {
                         <small> patricia@gmail.com </small>
                     </div>
                     <div className='col-md-6 col-sm-12 d-flex flex-column align-items-center'>
-                    <Link to='/intro'>
-                        <button type="button" className="btn btn-primary px-5 mt-5 mb-4">Cerrar Sesión</button>
+                    <Link to='/driver'>
+                        <button type="button" className="btn btn-primary px-5 mt-5 mb-4">Ser Conductor</button>
                         </Link>
                         <button type="button" className="btn btn-danger px-5 mb-3">Compartir</button>
                     </div>
@@ -26,28 +26,28 @@ class Account extends React.Component {
 
                 <hr />
 
-                <div className='text-center'>
+                <div className='text-center mb-5'>
                     <h3 className='my-5'>Historial de Viajes</h3>
                     <div className='row justify-content-center'>
-                        <div className='border border-dark text-center px-2 m-2 bg-danger text-white'>
+                        <div className='border border-dark text-center p-2 m-2 bg-danger text-white'>
                             <h5>Jose Perez</h5>
                             <small>Envigado - Poblado </small>
                             <br />
                             <small>23 Ago 2019</small>
                         </div>
-                        <div className='border border-dark text-center px-2 m-2 bg-danger text-white'>
+                        <div className='border border-dark text-center p-2 m-2 bg-danger text-white'>
                             <h5>Jose Perez</h5>
                             <small>Envigado - Poblado </small>
                             <br />
                             <small>24 Ago 2019</small>
                         </div>
-                        <div className='border border-dark text-center px-2 m-2 bg-danger text-white'>
+                        <div className='border border-dark text-center p-2 m-2 bg-danger text-white'>
                             <h5>Jose Perez</h5>
                             <small>Envigado - Poblado </small>
                             <br />
                             <small>25 Ago 2019</small>
                         </div>
-                        <div className='border border-dark text-center px-2 m-2 bg-danger text-white'>
+                        <div className='border border-dark text-center p-2 m-2 bg-danger text-white'>
                             <h5>Jose Perez</h5>
                             <small>Envigado - Poblado </small>
                             <br />

@@ -3,36 +3,50 @@ import { Link } from 'react-router-dom';
 import Perfil from '../images/PerfilAccount.png';
 import Navbar from './NavbarComponent';
 
-class Router extends React.Component {
+class Service extends React.Component {
     state = {}
     render() {
         return (
             <React.Fragment>
                 <Navbar />
-
-                <div className='row'>
+                <div className='row' id='confirmar'>
                     <div className='col-md-6 col-sm-12 text-center'>
                         <div className='row'>
                             <div className='col-md-6 col-sm-12 text-center'>
                                 <img src={Perfil} className="img-fluid mt-4 mb-4" alt="Perfil" />
                                 <h5>Jose Perez</h5>
                             </div>
-                            <div className='my-4'>
-                                <a className="nav-link disabled text-dark" href="/"><strong>Placa:</strong>  AAA-000</a>
-                                <a className="nav-link disabled text-danger" href="/"><strong>Color: Rojo</strong>  </a>
-                                <a className="nav-link disabled text-dark" href="/"><strong>Tiempo:</strong> 20 Min</a>
+                            <div className='my-4 col-md-6 col-sm-12'>
+                                <input type='text' className="text-dark text-center bg-light my-2" placeholder='Placa: AAA-000' />
+                                <input type='text' className="text-dark text-center bg-light my-2" placeholder='Color: Rojo' />
+                                <input type='text' className="text-dark text-center bg-light my-2" placeholder='Salida: Envigado' />
+                                <input type='text' className="text-dark text-center bg-light my-2" placeholder='Precio: $0' />
                             </div>
                         </div>
                     </div>
-
                     <div className='col-md-6 col-sm-12 d-flex flex-column align-items-center'>
+                        <Link to='/router'>
+                        <button type="button" className="btn btn-danger px-5 mt-5 mb-4">Ir al viaje</button>
+                        </Link>
+                        
+                        <Link to='/driver'>
+                            <button type="button" className="btn btn-primary px-5  mb-4">Cancelar</button>
+                        </Link>
+                    </div>
+
+                </div>
+
+                <hr />
+
+                <div className='d-flex flex-column align-items-center mb-5'>
+                <h3 className=''>Personas en Espera</h3>
                         <div className='row justify-content-center'>
                             <div className='col-lg-4 col-md-4 col-sm-4 border border-dark text-center p-2 m-3 bg-danger text-white'>
                                 <h5>Monica Lopez</h5>
                                 <small>Envigado - Poblado </small>
                                 <br />
                                 <input type="checkbox" className="custom-control-input" id="customControlValidation1" required />
-                                <label className="custom-control-label" htmlFor="customControlValidation1">En Viaje</label>
+                                <label className="custom-control-label" htmlFor="customControlValidation1">Confirmar</label>
 
                             </div>
                             <div className='col-lg-4 col-md-4 col-sm-4 border border-dark text-center p-2 m-3 bg-danger text-white'>
@@ -40,7 +54,7 @@ class Router extends React.Component {
                                 <small>Envigado - Poblado </small>
                                 <br />
                                 <input type="checkbox" className="custom-control-input " id="customControlValidation2" required />
-                                <label className="custom-control-label" htmlFor="customControlValidation2">En Viaje</label>
+                                <label className="custom-control-label" htmlFor="customControlValidation2">Confirmar</label>
 
                             </div>
                             <div className='col-lg-4 col-md-4 col-sm-4 border border-dark text-center p-2 m-3 bg-danger text-white'>
@@ -48,7 +62,7 @@ class Router extends React.Component {
                                 <small>Envigado - Poblado </small>
                                 <br />
                                 <input type="checkbox" className="custom-control-input " id="customControlValidation3" required />
-                                <label className="custom-control-label" htmlFor="customControlValidation3">En Viaje</label>
+                                <label className="custom-control-label" htmlFor="customControlValidation3">Confirmar</label>
 
                             </div>
                             <div className='col-lg-4 col-md-4 col-sm-4 border border-dark text-center p-2 m-3 bg-danger text-white'>
@@ -56,28 +70,15 @@ class Router extends React.Component {
                                 <small>Envigado - Poblado </small>
                                 <br />
                                 <input type="checkbox" className="custom-control-input " id="customControlValidation4" required />
-                                <label className="custom-control-label" htmlFor="customControlValidation4">En Viaje</label>
+                                <label className="custom-control-label" htmlFor="customControlValidation4">Confirmar</label>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <hr />
-
-                <div className='text-center m-0'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3966.6827442126423!2d-75.61288418590692!3d6.17321372885054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1565896568458!5m2!1ses!2sco" width="1200" height="200" frameBorder="0" allowFullScreen></iframe>
-                </div>
-
-                <div className='d-flex justify-content-around mt-2 mb-5'>
-                    <Link to='/service'>
-                    <button className="btn btn-primary btn-lg active rounded-pill" role="button">Cancelar</button>
-                    </Link>
-                  
-                </div>
 
 
             </React.Fragment>
         );
     }
 }
-export default Router;
+export default Service;

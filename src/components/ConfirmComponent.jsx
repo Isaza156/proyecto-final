@@ -46,7 +46,7 @@ class Confirm extends React.Component {
                 <hr />
 
                 <div className='text-center mb-5 '>
-                    <h3 className='mt-4 mb-4 font-weight-bold'>acompañantes de viaje</h3>
+                    <h3 className='mt-4 mb-4 font-weight-bold'>Acompañantes de viaje</h3>
                     <div className='row col-12 justify-content-center m-auto'>
                         <div className='container__viajeros color__secondary col-md-3 col-sm-12'>
                             <h4>Manuel Andres</h4>

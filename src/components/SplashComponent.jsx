@@ -23,5 +23,3 @@ class Splash extends React.Component {
     }
 }
 export default Splash;
-
-//  <Link type="button" className="btn btn-primary" to="/intro">Primary</Link>

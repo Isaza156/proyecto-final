@@ -38,7 +38,7 @@ class Navbar extends React.Component {
                                                 <div className="modal-body">
                                                 <h2 className="text-danger">Reproduce el video</h2>                                      
                                                     <div className='m-3 py-3'>
-                                                        <iframe src="https://www.youtube.com/embed/14iHRpk9qvQ?start=0" width='100%' height='300' frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                                        <iframe src="" width='100%' height='300' frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                                     </div>
                                                     <button type="button" className="btn btn-secondary w-50" data-dismiss="modal">Cerrar</button>
                                                 </div>
@@ -57,7 +57,7 @@ class Navbar extends React.Component {
                                     <Link to='/account'>
                                         <div className='text-center'>
                                             <i className="fas fa-user text-center"></i>
-                                            <button type="button" class="btn btn-outline-light rounded-pill text-dark mx-2"> <strong> Mi perfil </strong></button>
+                                            <button type="button" className="btn btn-outline-light rounded-pill text-dark mx-2"> <strong> Mi perfil </strong></button>
                                         </div>
                                     </Link>
 
