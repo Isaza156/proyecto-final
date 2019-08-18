@@ -6,7 +6,7 @@ class SignIn extends React.Component {
     state = {}
     render() {
         return (
-            <div className='cover-container bg-signIn'>
+            <div className='bg-signIn'>
                 <div className='d-flex justify-content-center text-center text-white'>
                     <form className="marginform text-dark bg-light">
                         <div className="form-group ">
@@ -22,7 +22,7 @@ class SignIn extends React.Component {
                             <input type="checkbox" className="form-check-input" />
                             <label className="form-check-label ">Acepta términos y condiciones</label>
                         </div>
-                        <div className='margin mb-5'>
+                        <div className='mb-5'>
                             <Link type="button" className="btn btn-primary px-5 mb-3 w-75" to="/principal">Registrarse</Link>
                             <Link type="button" className="btn btn-secondary px-5  w-75" to="/intro" >Volver</Link>
                         </div>

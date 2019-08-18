@@ -6,8 +6,8 @@ class Login extends React.Component {
     state = {}
     render() {
         return (
-            <div className='cover-container bg-login'>
-                <div className='d-flex justify-content-center text-center text-white '>
+            <div className='bg-login'>
+                <div className='d-flex align-items-center text-center '>
                     <form className='marginform text-dark bg-light'>
                         <div className="form-group">
                             <h1 className='my-5'>Inicio Sesión</h1>

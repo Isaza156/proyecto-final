@@ -1,3 +1,20 @@
 .bg-pri{
     background-color: #edf1fe;
+    height: 9em;
+}
+
+.bg__pri{
+    background-color: #edf1fe;
+
+}
+
+.txtField{
+    height: 2em;
+    width: 15em;
+}
+
+
+.btnPrincipal{
+    height: auto;
+    width: 10em;
 }

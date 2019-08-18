@@ -1,19 +1,22 @@
 .bg-login{
     background-image: url('../images//BackgroundSplash.jpg');
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;   
-    height: 100vh; 
-
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    height:100%;
+    width:100%;
+    color: aliceblue;
+    position: fixed;
 }
 
 .margin{
-    margin: 40px 0px 0px 0px;
+    margin: 40px 0px 40px 0px;
 }
 
 .marginform{
-    height: 500px;
+    height: 100%;
     width: 350px;
-    margin: 50px 0px 20px 0px;
-    padding: 0px 15px 0px 15px
+    margin: 40px auto 6% auto;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
 }
