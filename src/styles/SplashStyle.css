@@ -3,7 +3,10 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;  
-    height: 100vh;  
+    height:100%;
+    width:100%;
+    color: aliceblue;
+    position: fixed; 
 }
 
 .marginImg{

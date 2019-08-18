@@ -37,7 +37,7 @@ class Navbar extends React.Component {
                                                 <div className="modal-body">
                                                                                               
                                                     <div className='m-4 py-4'>
-                                                        <iframe src="https://www.youtube.com/embed/14iHRpk9qvQ?start=0" width='400' height='300' frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                                        <iframe src="https://www.youtube.com/embed/14iHRpk9qvQ?start=0" width='100%' height='300' frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                                     </div>
                                                     <button type="button" className="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                                                 </div>

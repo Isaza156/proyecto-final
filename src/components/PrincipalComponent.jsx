@@ -11,15 +11,15 @@ class Principal extends React.Component {
             <React.Fragment>
                 <Navbar />
 
-                <div className='col-12' id='principal'>
+                <div className='col-12 mt-2' id='principal'>
                     <div className='col-12 bg-pri py-3 text-center text-muted'>
                         <h4>Lugar de partida</h4>
-                        <input type="search" name="search" placeholder="Cll00 #00a 00, Medellín" className='txtField border border-info rounded' />
+                        <input type="search" name="search" placeholder=" Cll00 #00a 00, Medellín" className='txtField border border-info rounded' />
                         <button type="button" className="btn btn-secondary mt-2 mx-2 rounded-pill px-3 btnPrincipal ">Buscar</button>
                     </div>
                     <div className='col-12 bg-pri py-3 my-2 text-center text-muted'>
                         <h4>Lugar de llegada</h4>
-                        <input type="search" name="search" placeholder="Cra00 #00a 00, Envigado" className=' txtField border border-info rounded ' />
+                        <input type="search" name="search" placeholder=" Cra00 #00a 00, Envigado" className=' txtField border border-info rounded ' />
                         <button type="button" className="btn btn-secondary mt-2 mx-2 rounded-pill px-3 btnPrincipal">Buscar</button>
                     </div>
                     <div className='col-12 h-auto bg__pri py-3 text-center text-muted'>

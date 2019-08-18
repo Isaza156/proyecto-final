@@ -1,3 +1,4 @@
+
 .bg-pri{
     background-color: #edf1fe;
     height: 9em;
@@ -6,10 +7,11 @@
 
 .bg__pri{
     background-color: #edf1fe;
-
+    
 }
 
 .txtField{
+    margin-top: 5px;
     height: 2em;
     width: 15em;
 }
