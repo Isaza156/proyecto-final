@@ -56,7 +56,7 @@ class Navbar extends React.Component {
                                     <hr />
                                     <Link to='/account'>
                                         <div className='text-center'>
-                                        <i class="fas fa-user-circle"></i>
+                                        <i className="fas fa-user-circle"></i>
                                             <button type="button" className="btn btn-outline-light rounded-pill text-dark mx-2"> <strong> Mi perfil </strong></button>
                                         </div>
                                     </Link>

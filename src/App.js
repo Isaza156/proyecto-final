@@ -14,7 +14,6 @@ import Confirm from './components/ConfirmComponent';
 import Router from './components/RouterComponent';
 import Tracing from './components/TracingComponent';
 import Driver from './components/DriverComponent';
-import Service from './components/ServiceComponent';
 import NotFound from './components/NotFoundComponent';
 
 const App = () => {
@@ -33,7 +32,6 @@ const App = () => {
            <Route exact path = "/router" component={Router} />
            <Route exact path = "/tracing" component={Tracing} />
            <Route exact path = "/driver" component = {Driver} />
-           <Route exact path = "/service" component = {Service} />
            <Route component={NotFound} /> 
         </Switch>
       </Layout>

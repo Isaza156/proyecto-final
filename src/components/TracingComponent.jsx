@@ -19,6 +19,7 @@ class Tracing extends React.Component {
                                 <img src={Perfil} className="img-fluid mx-auto w-50" alt="Perfil" />
                             </div>
                             <div className='m-auto text-left flex-column'>
+                                <h5 className="text-dark" >Conductor</h5>
                                 <h2 className="mb-3 font-weight-bold">Jose Perez</h2>
                                 <h6 className="text-dark" ><strong>Placa:</strong>  AAA-000</h6>
                                 <h6 className="text-danger" ><strong>Color: Rojo</strong>  </h6>
