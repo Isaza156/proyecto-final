@@ -10,82 +10,82 @@ class Router extends React.Component {
             <React.Fragment>
                 <Navbar />
                 <div>
-                <div className='row col-12 m-auto'>
-                <div className='col-md-6 col-sm-12 col-xs-12 text-center m-auto'>
-                        <div className='row'>
-                            <div className='col-md-6 col-sm-12 col-xs-12 text-center m-auto'>
-                                <img src={Perfil} className="img-fluid mx-auto w-50" alt="Perfil" />
+                    <div className='row col-12 m-auto'>
+                        <div className='col-md-6 col-sm-12 col-xs-12 text-center m-auto'>
+                            <div className='row'>
+                                <div className='col-md-6 col-sm-12 col-xs-12 text-center m-auto'>
+                                    <img src={Perfil} className="img-fluid mx-auto w-50" alt="Perfil" />
+                                </div>
+                                <div className='m-auto text-left flex-column'>
+                                    <h2 className="mb-3 font-weight-bold">Patricia Cano</h2>
+                                    <h6 className="text-dark" ><strong>Placa:</strong>  AAA-000</h6>
+                                    <h6 className="text-danger" ><strong>Color: Rojo</strong>  </h6>
+                                    <h6 className="text-dark" ><strong>Ganancia: </strong>$8,000 PESOS</h6>
+                                </div>
                             </div>
-                            <div className='m-auto text-left flex-column'>
-                                <h2 className="mb-3 font-weight-bold">Patricia Cano</h2>
-                                <h6 className="text-dark" ><strong>Placa:</strong>  AAA-000</h6>
-                                <h6 className="text-danger" ><strong>Color: Rojo</strong>  </h6>
-                                <h6 className="text-dark" ><strong>Ganancia: </strong>$8,000 PESOS</h6>
+                        </div>
+                        <div className='col-md-6 col-sm-12 col-xs-12 text-center mx-auto'>
+                            <div className='row mx-auto'>
+                                <div className='container__viajeros color__secondary col-md-4 col-sm-12'>
+                                    <h5>Manuel Andres</h5>
+                                    <small>De Envigado hasta Poblado </small>
+                                    <br />
+                                    <small>23 Ago 2019 -7:00a.m</small>
+                                    <br />
+                                    <label className="form-check-label">
+                                        <input type="checkbox" className="form-check-input" value="" />En viaje
+                            </label>
+                                </div>
+                                <div className='container__viajeros color__secondary col-md-4 col-sm-12'>
+                                    <h5>Sofia Hernandez</h5>
+                                    <small>De Envigado hasta Ayura </small>
+                                    <br />
+                                    <small>23 Ago 2019 -7:10a.m</small>
+                                    <br />
+                                    <label className="form-check-label">
+                                        <input type="checkbox" className="form-check-input" value="" />En viaje
+                            </label>
+                                </div>
+                                <div className='container__viajeros color__secondary col-md-4 col-sm-12'>
+                                    <h5>Yeferson Perea</h5>
+                                    <small>De Envigado hasta Poblado </small>
+                                    <br />
+                                    <small>23 Ago 2019 -7:20a.m</small>
+                                    <br />
+                                    <label className="form-check-label">
+                                        <input type="checkbox" className="form-check-input" value="" />En viaje
+                            </label>
+                                </div>
+                                <div className='container__viajeros color__secondary col-md-4 col-sm-12'>
+                                    <h5>Mario Munera</h5>
+                                    <small>De Envigado hasta Poblado </small>
+                                    <br />
+                                    <small>23 Ago 2019 -7:30a.m</small>
+                                    <br />
+                                    <label className="form-check-label">
+                                        <input type="checkbox" className="form-check-input" value="" />En viaje
+                            </label>
+                                </div>
+
                             </div>
+
                         </div>
                     </div>
-                    <div className='col-md-6 col-sm-12 col-xs-12 text-center mx-auto'>
-                    <div className='row mx-auto'>
-                        <div className='container__viajeros color__secondary col-md-4 col-sm-12'>
-                            <h5>Manuel Andres</h5>
-                            <small>De Envigado hasta Poblado </small>
-                            <br />
-                            <small>23 Ago 2019 -7:00a.m</small>
-                            <br />
-                            <label className="form-check-label">
-                                <input type="checkbox" className="form-check-input" value=""/>En viaje
-                            </label>
-                        </div>
-                        <div className='container__viajeros color__secondary col-md-4 col-sm-12'>
-                            <h5>Sofia Hernandez</h5>
-                            <small>De Envigado hasta Ayura </small>
-                            <br />
-                            <small>23 Ago 2019 -7:10a.m</small>
-                            <br />
-                            <label className="form-check-label">
-                                <input type="checkbox" className="form-check-input" value=""/>En viaje
-                            </label>
-                        </div>
-                        <div className='container__viajeros color__secondary col-md-4 col-sm-12'>
-                            <h5>Yeferson Perea</h5>
-                            <small>De Envigado hasta Poblado </small>
-                            <br />
-                            <small>23 Ago 2019 -7:20a.m</small>
-                            <br />
-                            <label className="form-check-label">
-                                <input type="checkbox" className="form-check-input" value=""/>En viaje
-                            </label>
-                        </div>
-                        <div className='container__viajeros color__secondary col-md-4 col-sm-12'>
-                            <h5>Mario Munera</h5>
-                            <small>De Envigado hasta Poblado </small>
-                            <br />
-                            <small>23 Ago 2019 -7:30a.m</small>
-                            <br />
-                            <label className="form-check-label">
-                                <input type="checkbox" className="form-check-input" value=""/>En viaje
-                            </label>
-                        </div>
+
+                    <hr />
+
+                    <div className='text-center'>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3966.6827442126423!2d-75.61288418590692!3d6.17321372885054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1565896568458!5m2!1ses!2sco" width="95%" height="200" frameBorder="0" allowFullScreen></iframe>
+                    </div>
+
+                    <div className='d-flex justify-content-around mt-3 mb-5'>
+
+                        <Link to='/driver'>
+                            <button className="btn btn-primary rounded-pill mb-3" role="button">Cancelar viaje</button>
+                        </Link>
+
 
                     </div>
-                        
-                    </div>
-                </div>
-
-                <hr />
-
-                <div className='text-center'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3966.6827442126423!2d-75.61288418590692!3d6.17321372885054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1565896568458!5m2!1ses!2sco" width="95%" height="200" frameBorder="0" allowFullScreen></iframe>
-                </div>
-
-                <div className='d-flex justify-content-around mt-3 mb-4'>
-
-                    <Link to='/driver'>
-                    <button className="btn btn-primary rounded-pill mb-2" role="button">Cancelar viaje</button>
-                    </Link>
-                    
-                    
-                </div>
                 </div>
             </React.Fragment>
         );

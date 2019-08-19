@@ -19,7 +19,7 @@ class Confirm extends React.Component {
                                     <img src={Perfil} className="img-fluid m-auto" alt="Perfil" />
                                 </div>
                                 <div className='m-auto text-left flex-column'>
-                                     <h5 className="text-dark" >Conductor</h5>
+                                    <h5 className="text-dark" >Conductor</h5>
                                     <h1 className="mb-3 font-weight-bold">Jose Perez</h1>
                                     <h5 className="text-dark" ><strong>Placa:</strong>  AAA-000</h5>
                                     <h5 className="text-danger" ><strong>Color: Rojo</strong>  </h5>
@@ -30,15 +30,13 @@ class Confirm extends React.Component {
 
                         <div className='col-md-6 col-sm-12 col-xs-12 text-center'>
 
-                            <div className="row">
-                                <div className='text-center flex-column'>
-                                    <h3 className="text-center mt-2">Politica de viaje</h3>
-                                    <p>El Servicio no está disponible para el uso de personas menores de 18 años. Usted no podrá autorizar a terceros a utilizar su Cuenta, asimismo no podrá permitir a personas menores de 18 años que reciban servicios de transporte privado o logísticos de Terceros proveedores, a menos que aquellos sean acompañados por usted. </p>
-                                    <div className='d-flex text-center'>
-                                        <h5 className="text-center mt-3 "><strong> Costo del viaje: </strong></h5>
-                                        <h5 className="text-success text-center mt-3 mb-4"><strong>$2.000 PESOS</strong></h5>
+                            <div className="row justify-content-center mt-4">
+                                <div className='text-center flex-column'>                              
+                                    <div className='d-flex text-center '>
+                                        <h5 className="text-center mt-3 "><strong> Costo del viaje:  </strong> </h5>
+                                        <h5 className="text-success text-center mt-3 mb-4"><strong> $2.000 PESOS</strong></h5>
                                     </div>
-                                    
+
                                 </div>
                             </div>
 
